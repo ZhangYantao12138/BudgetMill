@@ -131,7 +131,7 @@ struct StatCard: View {
                     
                     Spacer()
                     
-                    if let trend = trend, let trendValue = trendValue {
+                    if let _ = trend, let trendValue = trendValue {
                         HStack(spacing: 2) {
                             Image(systemName: trendIcon)
                                 .font(.caption)
